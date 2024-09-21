@@ -1,4 +1,5 @@
 const audio = document.getElementById("miMusica");
+audio.volume = 0.1; // Establece el volumen al 50%
 const botonReiniciar = document.getElementById("botonReiniciar");
 const botonPausa = document.getElementById("botonPausa");
 const iconoPausa = document.getElementById("iconoPausa");
